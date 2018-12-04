@@ -6,6 +6,6 @@ echo "Bonjour $USER. Nous sommes actuellement le $Maintenant. Bienvenu(e) dans m
 read -p "Quel répertoire vous intéresse aujourd'hui ?" repertoire
 cd "$repertoire" && pwd
 
-echo "Les fichiers modifiés depuis moins d'une semaine sont:"
+echo "Les fichiers modifiés depuis moins d'une semaine sont :"
 find . -type f -mtime -7
 
