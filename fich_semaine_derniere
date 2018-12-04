@@ -1,0 +1,8 @@
+#!bin/bash
+Maintenant=$(date '+%d %B %Y')
+
+echo "Bonjour $USER. Nous sommes actuellement le $Maintenant. Bienvenu(e) dans mon projet."
+
+read -p "Quel répertoire vous intéresse aujourd'hui ?" repertoire
+cd "$repertoire" && pwd
+
